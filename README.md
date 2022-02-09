@@ -6,4 +6,5 @@
 <br><br>
 
 <h2>Autor</h2>
-<img src="https://avatars.githubusercontent.com/u/95763807?s=96&v=4" width=115><br><sub>Alejandra Moreno De Mavarez</sub>
+<img src="https://avatars.githubusercontent.com/u/95763807?s=96&v=4" width=115>
+<sub>Alejandra Moreno De Mavarez</sub>
