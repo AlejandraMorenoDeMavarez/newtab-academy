@@ -1,15 +1,3 @@
-.form-title {
-    font-weight: normal;
-    font-family: sans-serif;
-    color: var(--laranja);
-    text-align: center;
-    padding: 0;
-    margin-bottom: 20px;
-}
-.form-title span {
-    color: var(--azul-marino);
-}
-
 th {
     color: var(--white);
     font-weight: normal;
@@ -18,12 +6,12 @@ th {
 }
 .table {
     width: 100%;
-    margin-top: 20px;
 }
 td {
     color: var(--laranja);
     font-weight: normal;
     font-family: Roboto;
+    font-size: var(--sm);
 }
 .button-primary {
     background-color:var(--black) ;
@@ -31,16 +19,43 @@ td {
     border: 2px solid var(--laranja);
     width: 100%;
     height: 30px;
-     color: var(--white);
-     font-size: var(--sm);
-     font-family: sans-serif;
-     text-align: center;
-     cursor: pointer;
-     margin-top: 15px;
-     margin-bottom: 20px;
-     padding: 5px;
+    color: var(--white);
+    font-size: var(--sm);
+    font-family: sans-serif;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.button-primary:hover {
+    color: var(--laranja);
+    border: none;
 }
 @media (max-width:480px){
-    .containe .form {width: 100%;
+   .menu {
+       display: flex;
+       justify-content: center;
+   }
+    table tr {
+        display: flex;
+        flex-direction: column;
     }
+     .table-thead {
+         display: none;
+     }
+   table- td [data-titulo] {
+       display: flex;
+   }
+   .table-tbody [data-titulo]::before {
+       content: attr(data-titulo);
+       width: 80px;
+       color: var(--white);
+   }
+   .button-primary {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+   }
 }
