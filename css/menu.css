@@ -50,4 +50,7 @@ a {
 a:hover {
     color: var(--azul-marino);
 }
-
+@media (max-width:480px){
+    .form{width: 100%;
+    } 
+}
